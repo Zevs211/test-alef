@@ -9,7 +9,7 @@
     <div class="children">
       <div class="header-child-text">
         <div>Дети (макс. 5)</div>
-        <VButton v-if="canAddMoreChildren" type="empty" @click="addChild">
+        <VButton v-if="canAddMoreChildren" type="outlined" @click="addChild">
           Добавить ребенка
         </VButton>
       </div>
